@@ -1,5 +1,5 @@
 # b6p-k8s-api-web
-## Build and push pubilc image containing helm, kubectl, and java 21
+## Build and push public image containing helm, kubectl, and java 21
 ```bash
 export DTZAR_HELM_KUBECTL_VERSION=3.17.0
 docker compose build helm-kubectl-openjdk21-jre
