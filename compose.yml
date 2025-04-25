@@ -6,8 +6,6 @@ services:
       args:
         DTZAR_HELM_KUBECTL_VERSION: ${DTZAR_HELM_KUBECTL_VERSION}
       tags:
-      - helm-kubectl-openjdk21-jre:latest
-      - helm-kubectl-openjdk21-jre:${DTZAR_HELM_KUBECTL_VERSION}
       - ghcr.io/bluestep-systems/helm-kubectl-openjdk21-jre:latest
       - ghcr.io/bluestep-systems/helm-kubectl-openjdk21-jre:1.0.0
-    image: helm-kubectl-openjdk21-jre
+    image: hcr.io/bluestep-systems/helm-kubectl-openjdk21-jre
